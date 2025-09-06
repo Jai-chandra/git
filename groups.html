@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook – Groups</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: #f0f2f5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background: #1877f2;
+            color: #fff;
+            padding: 16px 32px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 32px;
+        }
+        h2 {
+            color: #1877f2;
+            margin-bottom: 24px;
+        }
+        .groups-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+        }
+        .group-card {
+            background: #f0f2f5;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+        }
+        .group-card h3 {
+            margin: 0 0 8px 0;
+            font-size: 20px;
+            color: #1c1e21;
+        }
+        .group-card p {
+            margin: 0 0 12px 0;
+            color: #65676b;
+            font-size: 15px;
+        }
+        .group-card button {
+            background: #1877f2;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            padding: 8px 16px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        facebook
+    </div>
+    <div class="container">
+        <h2>Your Groups</h2>
+        <div class="groups-list">
+            <div class="group-card">
+                <h3>Photography Lovers</h3>
+                <p>Share your best shots and tips!</p>
+                <button>Visit Group</button>
+            </div>
+            <div class="group-card">
+                <h3>Travel Enthusiasts</h3>
+                <p>Discuss destinations and travel hacks.</p>
+                <button>Visit Group</button>
+            </div>
+            <div class="group-card">
+                <h3>Book Club</h3>
+                <p>Read and review books together.</p>
+                <button>Visit Group</button>
+            </div>
+            <div class="group-card">
+                <h3>Fitness Friends</h3>
+                <p>Motivate each other to stay healthy.</p>
+                <button>Visit Group</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
