@@ -83,6 +83,17 @@
             display: block;
             cursor: pointer;
         }
+        .create-page {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 15px;
+            color: #1c1e21;
+        }
+        .create-page a {
+            color: #1877f2;
+            text-decoration: none;
+            font-weight: bold;
+        }
         @media (max-width: 900px) {
             .container {
                 flex-direction: column;
@@ -95,6 +106,10 @@
             }
             .right {
                 margin-top: 30px;
+            }
+            .create-page {
+                margin-top: 20px;
+                font-size: 14px;
             }
         }
     </style>
@@ -123,5 +138,8 @@
             </form>
         </div>
     </div>
-	</body>
+    <div class="create-page">
+        <a href="#">Create a Page</a> for a celebrity, brand or business
+    </div>
+</body>
 </html>
