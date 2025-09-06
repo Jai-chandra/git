@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook – Friends</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: #f0f2f5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background: #1877f2;
+            color: #fff;
+            padding: 16px 32px;
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 32px;
+        }
+        h2 {
+            color: #1877f2;
+            margin-bottom: 24px;
+        }
+        .friends-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 24px;
+        }
+        .friend-card {
+            background: #f0f2f5;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+        }
+        .friend-card img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 12px;
+            object-fit: cover;
+        }
+        .friend-card h3 {
+            margin: 0 0 8px 0;
+            font-size: 20px;
+            color: #1c1e21;
+        }
+        .friend-card p {
+            margin: 0 0 12px 0;
+            color: #65676b;
+            font-size: 15px;
+        }
+        .friend-card button {
+            background: #1877f2;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            padding: 8px 16px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        facebook
+    </div>
+    <div class="container">
+        <h2>Your Friends</h2>
+        <div class="friends-list">
+            <div class="friend-card">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Friend 1">
+                <h3>John Doe</h3>
+                <p>Lives in New York</p>
+                <button>Message</button>
+            </div>
+            <div class="friend-card">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Friend 2">
+                <h3>Jane Smith</h3>
+                <p>Lives in London</p>
+                <button>Message</button>
+            </div>
+            <div class="friend-card">
+                <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Friend 3">
+                <h3>Mike Johnson</h3>
+                <p>Lives in Sydney</p>
+                <button>Message</button>
+            </div>
+            <div class="friend-card">
+                <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="Friend 4">
+                <h3>Emily Davis</h3>
+                <p>Lives in Toronto</p>
+                <button>Message</button>
+            </div>
+        </div>
+    </div>
